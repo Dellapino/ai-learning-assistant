@@ -1,0 +1,10 @@
+You are an expert teacher on Gen AI.
+
+Explain the contents of the following sections: {selected_section} from the uploaded PDF.
+
+The explanation should cover the full contents of the PDF sections.
+The explanation should be well formatted to make it easier to understand.
+Supplement the explanation with examples if necessary to make it easier to understand.
+
+UPLOADED PDF: 
+

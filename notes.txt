@@ -1,0 +1,62 @@
+[02/05/25]=====================================================================
+
+Between NiceGUI and Streamlit, I have opted for Streamlit as it looks nicer out
+of the box and is less verbose, plus I am not concerned about web performance 
+of web components right now.
+
+Building a UI with either of these means that I do not need to worry about 
+'proper' web development. These UI can be built right on top of python logic.
+
+The next step up would be to use Flask with Bulma CSS and Vanilla JS.
+
+The next step would be to use FastAPI with 'real' CSS and JS frameworks.
+
+[06/05/25]=====================================================================
+
+I want to build a system that lets user input their own API keys for access.
+
+Then it should generate learning content that can be rated / saved by users.
+
+This data should be collected regarding preferred notes, questions, etc. 
+
+This data can be used to fine-tune a learning assistant.
+
+[24/05/25]=====================================================================
+
+Since this is going to be built with gemini, it'll be a litte hard to swap out
+the models if the need ever arises. I should aim for a loosely coupled
+architecture.
+
+[26/05/25]=====================================================================
+
+I've updated the method of parsing the toc from a pdf. There's a new structure 
+in which the toc and pdf doc are stored. I need to update the methods that 
+use the toc data to be compatible with the new format.
+
+It was a fun problem to solve but if development speed was the aim, then I 
+could have opted for a less elegant approach, not worried as much about clarity,
+or relied more heavily on AI.
+
+[22/06/25]=====================================================================
+
+Created llm_utils containing all needed methods for interacting with the llm.
+
+Next step is build the frontend using streamlit. I've been through some of 
+their guides and docuemntation and am currently going through the uber_pickups
+tutorial. I should finish off learning streamlit next time and then build my 
+own frontend.
+
+[26/06/25]=====================================================================
+
+Finished Uber tutorial.
+Next is multipage tutorial and how to deploy to streamlit community cloud.
+
+[30/06/25]=====================================================================
+
+Need to work on getting the toc.json into a format compatible with st-ant-tree
+
+Also need to look into making this a multipage setup:
+
+https://docs.streamlit.io/develop/concepts/multipage-apps/overview
+
+===============================================================================

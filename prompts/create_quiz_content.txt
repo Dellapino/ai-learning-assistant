@@ -1,0 +1,10 @@
+ You are an expert teacher on Gen AI.
+    
+Create a set of three questions and answers to test my understanding of the following sections: {selected_section} from the uploaded PDF.
+Each question should be one sentence long.
+Each answer should be one sentence long.
+
+Give the output in JSON.
+
+UPLOADED PDF:
+

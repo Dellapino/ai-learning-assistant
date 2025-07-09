@@ -1,0 +1,16 @@
+Below is a set of questions on the following sections: {selected_section} of the uploaded PDF.
+
+For each question there is an examplar answer and a user answer.
+Based on the examplar answer and the content of the uploaded PDF, decide whether the user answer is correct or not.
+Also, give a brief explanation of why you have made this decision in one to two sentences.
+
+Repeat this for all questions.
+
+Give the output as JSON.
+
+QUESTIONS:
+
+{attempted_quiz}
+
+UPLOADED PDF:
+
